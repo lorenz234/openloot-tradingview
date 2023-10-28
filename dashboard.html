@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Openloot Trading Overview</title>
+</head>
+<body>
+
+    <!-- Display plots, change the list for! -->
+    <div id="plots">
+        <script>
+            var html_files = ['BT0_Time_Warden_Exotic.html', 
+                'BT0_Armory_Transcendent.html',
+                'BT0_MysteryBox_Exclusive.html'];
+            for (var i = 0; i < html_files.length; i++) {
+                document.write('<iframe src="' + html_files[i] + '" width="100%" height="600" style="border:none;"></iframe>');
+            }
+        </script>
+    </div>
+
+    <!-- You might include external JS files for interactivity -->
+</body>
+</html>
